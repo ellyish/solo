@@ -1,0 +1,88 @@
+body {
+      font-family: Helvetica, Arial, sans-serif;
+      display: flex;
+
+    color: #000000;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+div > img {
+  margin: 30px 10px 30px 30px;
+}
+
+
+
+
+/* menu */
+
+nav {
+  width: 100px;
+
+}
+
+
+nav > ul > li > a {
+  font-size: 11px;
+  text-decoration: none;
+  padding: 2px 3px 2px 3px;
+  display: block;
+  color: #999999;
+}
+
+nav > ul > li > a:hover {
+    background: #ffff00;
+    color: #000000;
+}
+
+
+
+nav > ul {
+  list-style: none;
+}
+
+
+
+/* portfolio */
+
+nav#portfolio {
+  width: 100px;
+}
+
+
+nav#portfolio > ul > li > a {
+  font-size: 11px;
+  text-decoration: none;
+  padding: 2px 3px 2px 3px;
+  display: block;
+  color: #000;
+}
+
+nav#portfolio > ul > li > a:hover {
+    background: #ffff00;
+    color: #000000;
+}
+
+
+
+nav#portfolio > ul {
+  list-style: none;
+}
+
+
+/* container */
+
+div#container {
+    padding: 89px 0 0 60px;
+    width: 560px;
+    z-index: 10;
+}
+
+
+div#container > .desc::before, .desc::after{
+  content: '_';
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
